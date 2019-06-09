@@ -1,0 +1,27 @@
+{
+  "Spidermanunnue" : {
+      "id" : "id0",
+    "idname" : "Spidermanunnue",
+    "title":"Spider man un nuevo universo",
+    "img" : "img/pelis/spidemanuni.jpg",
+    "pg" : "https://drive.google.com/file/d/1ETA7QznnWfLie9vWgH7fZ0VLtfhYyeR7/preview?authuser=0"
+    },
+
+    "BirdBox" : {
+      "id" : "id1",
+    "idname" : "BirdBox",
+    "title":"Bird Box",
+    "img" : "img/pelis/BirdBox.jpg",
+    "pg" : "https://drive.google.com/file/d/1z9UzJ_vcTulfAD8NdYqER_SttvXjVru0/preview?authuser=0"
+    },
+
+    "aladdin" : {
+      "id" : "id2",
+    "idname" : "aladdin",
+    "title":"Aladdin",
+    "img" : "img/pelis/aladdin.jpg",
+    "pg" : "https://drive.google.com/file/d/1V8WTKaQcE_cJcCIjByhxaYRE4e-UiF7a/preview?authuser=0"
+    }
+
+
+}

@@ -1,0 +1,98 @@
+{
+  "bubbleshooter" : {
+      "id" : "id0",
+    "idname" : "bubbleshooter",
+    "title":"Bubble Shooter <br> Android PC",
+    "img" : "img/imgjuegos/bubbleshooter.jpg",
+    "pg" : "https://games.softgames.com/games/bubble-shooter-saga/gamesites/2792/locale/en"
+    },
+
+    "cuttherope2" : {
+      "id" : "id1",
+    "idname" : "cuttherope2",
+    "title":"Cut the rope 2 <br> Android PC",
+    "img" : "img/imgjuegos/cuttherope2.jpg",
+    "pg" : "https://play.gamepix.com/cut-the-rope-2/embed?api=2&sid=90269&utm_source=direct&referer=undefined&utm_medium=publisherV2&rgx=1&gpxref=direct"
+    },
+
+    "winteradventures" : {
+      "id" : "id2",
+    "idname" : "winteradventures",
+    "title":"Winter adventures <br> Android PC",
+    "img" : "img/imgjuegos/winteradventures.jpg",
+    "pg" : "//play.famobi.com/winter-adventures/A-GAMESYS"
+    },
+
+    "minecraft" : {
+      "id" : "id3",
+    "idname" : "minecraft",
+    "title":"Minecraft <br> para  PC",
+    "img" : "img/imgjuegos/minecraft.jpg",
+    "pg" : "https://classic.minecraft.net/"
+    },
+    "hexpuzzle" : {
+      "id" : "id4",
+    "idname" : "hexpuzzle",
+    "title":"hexpuzzle <br> Android PC",
+    "img" : "img/imgjuegos/hexpuzzle.jpg",
+    "pg" : "https://play.famobi.com/hex-puzzle/A-TC5AK"
+    }
+
+    
+    ,
+    "ball" : {
+      "id" : "id6",
+    "idname" : "ball",
+    "title":"Ball <br> Android 7 PC",
+    "img" : "img/imgjuegos/ball.jpg",
+    "pg" : "https://html5.gamedistribution.com/2733d5951e04400a8ed857818635e670/"
+    }
+    ,
+    "crazyjump" : {
+      "id" : "id7",
+    "idname" : "crazyjump",
+    "title":"Crazyjump <br> Android 7 PC",
+    "img" : "img/imgjuegos/crazyjump.jpg",
+    "pg" : "html5.iclouds.io/crazy_jump/"
+    }
+    ,
+    "impossibledashonline" : {
+      "id" : "id8",
+    "idname" : "impossibledashonline",
+    "title":"Impossible dashon line <br> Android  PC",
+    "img" : "img/imgjuegos/impossibledashonline.jpg",
+    "pg" : "http://html5.iclouds.io/impossible-dash-online/"
+    }
+    ,
+    "tankwars" : {
+      "id" : "id9",
+    "idname" : "tankwars",
+    "title":"Tank wars<br> Android  PC",
+    "img" : "img/imgjuegos/tankwars.jpg",
+    "pg" : "http://html5.iclouds.io/tank-wars/"
+    }
+ 
+    ,
+    "neonhockey" : {
+      "id" : "id9",
+    "idname" : "neonhockey",
+    "title":"Neon hockey<br> Android  PC",
+    "img" : "img/imgjuegos/neonhockey.jpg",
+    "pg" : "http://html5.iclouds.io/neon-hockey/"
+    }
+    ,
+    "gswitch3" : {
+      "id" : "id9",
+    "idname" : "gswitch3",
+    "title":"Gswitch3<br> Android  PC",
+    "img" : "img/imgjuegos/gswitch3.jpg",
+    "pg" : "https://games.poki.com/869100/gswitch3"
+    }
+ 
+
+
+    
+    
+    
+}
+

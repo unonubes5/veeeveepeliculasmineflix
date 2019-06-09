@@ -1,0 +1,27 @@
+{
+  "Spidermanunnue" : {
+      "id" : "id0",
+    "idname" : "Quimicae",
+    "title":"calculo",
+    "img" : "img/pelis/spidemanuni.jpg",
+    "pg" : "//play.famobi.com/winter-adventures/A-GAMESYS"
+    },
+
+    "BirdBox" : {
+      "id" : "id1",
+    "idname" : "BirdBox",
+    "title":"biologia",
+    "img" : "img/pelis/BirdBox.jpg",
+    "pg" : "//html5.iclouds.io/neon-hockey/"
+    },
+
+    "aladdin" : {
+      "id" : "id2",
+    "idname" : "fisisca",
+    "title":"fisisca",
+    "img" : "img/pelis/aladdin.jpg",
+    "pg" : "https://drive.google.com/file/d/1UD2jzD8RN6DFW_MO6QeB4KY7IYRQoa8F/preview?authuser=0"
+    }
+
+
+}
