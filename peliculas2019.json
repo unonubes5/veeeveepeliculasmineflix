@@ -1,5 +1,6 @@
 {
   "Spidermanunnue" : {
+    "vid":"1",
       "id" : "id0",
     "idname" : "Spidermanunnue",
     "title":"Spider man un nuevo universo",
@@ -8,6 +9,7 @@
     },
 
     "BirdBox" : {
+      "vid":"1",
       "id" : "id1",
     "idname" : "BirdBox",
     "title":"Bird Box",
@@ -16,11 +18,156 @@
     },
 
     "aladdin" : {
+      "vid":"1",
       "id" : "id2",
     "idname" : "aladdin",
     "title":"Aladdin",
     "img" : "img/pelis/aladdin.jpg",
     "pg" : "https://drive.google.com/file/d/1V8WTKaQcE_cJcCIjByhxaYRE4e-UiF7a/preview?authuser=0"
+    },
+
+    "XMenFénixOscura" : {
+      "vid":"1",
+      "id" : "id3",
+    "idname" : "XMenFénixOscura",
+    "title":"X-Men: Fénix Oscura",
+    "img" : "https://static.pelisplus.co/movie/cover/original/484ed180b2f7aa181bf12850cb4699cd.jpg",
+    "pg" : "https://pelis28.tv/apk/stream.php?video=3ZRAbl6wsNYkcQD3aB3I3wIr_tWKTrykh1Nv_2cvIrTPac09MXu2rkxprAKGAQhpsp0jvJbZcL6O10aO30Pmv1h8MSaFNC5BoABXckMjJCcJoEfs0GgSIsxdhoEkBCVx"
+    }
+
+    ,
+
+    "GodzillaReydelosmonstruos" : {
+      "vid":"1",
+      "id" : "id4",
+    "idname" : "GodzillaReydelosmonstruos",
+    "title":"Godzilla Rey de los monstruos",
+    "img" : "https://www.pelisplay.tv/storage/imagenes/posters/opt_img_5cfad36a7a853_jLi7P6iWr7euFKTRd8UR11fkIXa.jpg",
+    "pg" : "https://stream78.uqload.com/3rfkviwqfjw2q4drdid7h4ngbxvbxqqezdsfmt2drkuzeafpi5qc4oks6zaq/v.mp4"
+    }
+
+
+    ,
+
+    "LaVidaSecretadetusMascotas2" : {
+      "vid":"1",
+      "id" : "id5",
+    "idname" : "LaVidaSecretadetusMascotas2",
+    "title":"La Vida Secreta de tus Mascotas 2",
+    "img" : "https://static.pelisplus.co/movie/cover/original/704a0e85b09ebc1c93fdf9e58ec8ac72.jpg",
+    "pg" : "https://stream179.uqload.com/3rfkforhfjw2q4drdia7hpncbrxj4rfuc6rbs3qtqjiu4yy4ou5evgy5nila/v.mp4"
+    }
+    ,
+
+    "UglyDollsExtraordinariamenteFeos" : {
+      "vid":"1",
+      "id" : "id6",
+    "idname" : "UglyDollsExtraordinariamenteFeos",
+    "title":"UglyDolls: Extraordinariamente Feos",
+    "img" : "https://static.pelisplus.co/movie/cover/original/4df9df113fafda72d4da8745f6913e5b.jpg",
+    "pg" : "https://stream76.uqload.com/3rfk2ydjfnw2q4drdih7h5hqbwgwzzxkshbm2wnfamzbuw7um4zhyotdriza/v.mp4"
+    }
+    ,
+
+    "MaestrasdelEngano" : {
+      "vid":"1",
+      "id" : "id7",
+    "idname" : "MaestrasdelEngano",
+    "title":"Maestras del Engaño",
+    "img" : "https://static.pelisplus.co/movie/cover/original/9b53d65541d50645278d5a41cae9a3aa.jpg",
+    "pg" : "https://stream78.uqload.com/3rfkvga3fnw2q4drdig7h5fdlx7y5kq3gzdr7kxt535xaqtw4uhpqfhwkdeq/v.mp4"
+    }
+    ,
+
+    "PokemonDetectivePikachu" : {
+      "vid":"1",
+      "id" : "id8",
+    "idname" : "PokemonDetectivePikachu",
+    "title":"Pokémon Detective Pikachu",
+    "img" : "https://static.pelisplus.co/movie/cover/original/c195f19adc58d309f90321f38592f789.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://www.rapidvideo.com/e/G3S1KY7D6R"
+    }
+
+    ,
+
+    "Avengers4Endgame" : {
+      "vid":"1",
+      "id" : "id9",
+    "idname" : "Avengers4Endgame",
+    "title":"Avengers 4: Endgame",
+    "img" : "https://static.pelisplus.co/movie/cover/original/d54a414e51e3493cb8f87df2f8155111.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-kf9lv56ief8e.html"
+    }
+    ,
+
+    "JohnWick3Parabellum" : {
+      "vid":"1",
+      "id" : "id10",
+    "idname" : "JohnWick3Parabellum",
+    "title":"John Wick 3 Parabellum",
+    "img" : "https://static.pelisplus.co/movie/cover/original/d19e5376b89d3aac62e0c174dfca2b37.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-jn8c09c5imy9.html"
+    }
+    ,
+
+    "LaCitaPerfecta" : {
+      "vid":"1",
+      "id" : "id11",
+    "idname" : "LaCitaPerfecta",
+    "title":"La Cita Perfecta",
+    "img" : "https://static.pelisplus.co/movie/cover/original/14ad387c6e659d243844159e22744d85.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-uoa5hznhdzyh.html"
+    }
+    ,
+
+    "Rocketman" : {
+      "vid":"1",
+      "id" : "id12",
+    "idname" : "Rocketman",
+    "title":"Rocketman",
+    "img" : "https://static.pelisplus.co/movie/cover/original/e983bd7524f1feb560892c566c0b251e.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-krmiilg9moj7.html"
+    }
+    ,
+
+    "LaGranAventuraLEGO2" : {
+      "vid":"1",
+      "id" : "id13",
+    "idname" : "LaGranAventuraLEGO2",
+    "title":"La Gran Aventura LEGO 2",
+    "img" : "https://static.pelisplus.co/movie/cover/original/e983bd7524f1feb560892c566c0b251e.jpg",
+    "pg" : "https://stream76.uqload.com/3rfkozmverw2q4drdiq7hjvnbgbj22nwhm4et3z3l6qqytinc3y74m3genaq/v.mp4"
+    }
+    ,
+
+    "CementerioMaldito" : {
+      "vid":"1",
+      "id" : "id14",
+    "idname" : "CementerioMaldito",
+    "title":"Cementerio Maldito",
+    "img" : "https://static.pelisplus.co/movie/cover/original/57d6ce85578cd21140e3713f4758b15f.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-gqd8iq38qble.html"
+    }
+
+    ,
+
+    "PegasusPonywithaBrokenWing" : {
+      "vid":"1",
+      "id" : "id15",
+    "idname" : "PegasusPonywithaBrokenWing",
+    "title":"Pegasus Pony with a Broken Wing",
+    "img" : "https://static.pelisplus.co/movie/cover/original/57d6ce85578cd21140e3713f4758b15f.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-oa8u7uclgs4f.html"
+    }
+    ,
+
+    "LaPeordeMisBodas2" : {
+      "vid":"1",
+      "id" : "id15",
+    "idname" : "LaPeordeMisBodas2",
+    "title":"La Peor de Mis Bodas 2",
+    "img" : "https://static.pelisplus.co/movie/cover/original/9b01a1b64b59def5795308cb349322aa.jpg",
+    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-oa8u7uclgs4f.html"
     }
 
 

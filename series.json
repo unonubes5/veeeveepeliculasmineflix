@@ -725,7 +725,320 @@
 
     }
     
+  },
+
+  "TheUmbrellaAcademy" : {
+    "id":"id4",
+    "idname":"TheUmbrellaAcademy",
+    "title":"The Umbrella Academy",
+    "pg":"https://static.pelisplus.co/serie/cover/original/b57cdf4439c640ca4497f91d4c4e81ea.jpg",
+    "t1" : {
+
+      "id":"id0",
+      "idname":"t1",
+      "title":"Temporada 1",
+      "v1" : {
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream74.uqload.com/3rfku7hhezw2q4drdi5php5cdmoky3zyookgbbgzrsu7dbehkl6rjul7hz7q/v.mp4"
+      },
+      "v2" : {
+        "id" : "id1",
+        "idname" : "v2",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfkq5xhezw2q4drdi5phi5kdl63pgm7232bvxrtaiy6jb5gmn2vmsgrkfkq/v.mp4"
+      },
+      "v3" : {
+        "id" : "id2",
+        "idname" : "v3",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfkq57hezw2q4drdi5phnnkankglfpzceeqvufz7k47y6ru3klnw3aaeswq/v.mp4"
+      },
+      "v4" : {
+        "id" : "id3",
+        "idname" : "v4",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfkwyphezw2q4drdi5ph5nncpgoztl6ayaqbejem4wifedhpatxzrvzgqva/v.mp4"
+      },
+      "v5" : {
+        "id" : "id4",
+        "idname" : "v5",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfkutphezw2q4drdi5phjnebcpn5xvl7v2cxg5nrlieroryybiz3cpimomq/v.mp4"
+      },
+      "v6" : {
+        "id" : "id5",
+        "idname" : "v6",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfku7phezw2q4drdi5phjfrd5yv6tf63kgwkj6ez7isojugjvtc6bwqzcxa/v.mp4"
+      },
+      "v7" : {
+        "id" : "id6",
+        "idname" : "v7",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfkw7xhezw2q4drdi5phkfbaepdr3pmru5gyc7c5szvigic2rhu2rcilc6a/v.mp4"
+      }
+
+      ,
+      "v8" : {
+        "id" : "id7",
+        "idname" : "v8",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream158.uqload.com/3rfkf26eezw2q4drdi57hp5jajjl5euawryatci2qn2afmniajno4v7ni7pq/v.mp4"
+      }
+      ,
+      "v9" : {
+        "id" : "id8",
+        "idname" : "v9",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream31.uqload.com/3rfkethhezw2q4drdi5ph4fobrtcj3hifopei345vnx2aajfewn3smpnpi4q/v.mp4"
+      }
+      ,
+      "v10" : {
+        "id" : "id9",
+        "idname" : "v10",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream170.uqload.com/3rfket7hezw2q4drdi5phnnuluditn5cri5dtuusalvtowpwrc62vya5zraa/v.mp4"
+      }
+
+     
+
+    }
+    
+  },
+  "Chernobyl" : {
+    "id":"id4",
+    "idname":"Chernobyl",
+    "title":"Chernobyl",
+    "pg":"https://static.pelisplus.co/serie/cover/original/84b14a2e24950e7f8353a1feebcbdf99.jpg",
+    "t1" : {
+
+      "id":"id0",
+      "idname":"t1",
+      "title":"Temporada 1",
+      "v1" : {
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream78.uqload.com/3rfkqwuffjw2q4drdicphmfzd4yg2vrf2f453g7boahhmmcg3oijbdaoye4a/v.mp4"
+      },
+      "v2" : {
+        "id" : "id1",
+        "idname" : "v2",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfkqveffjw2q4drdicphkxyde23aadhxb4x5dorh34jdh5hfiur3czxiiqq/v.mp4"
+      },
+      "v3" : {
+        "id" : "id2",
+        "idname" : "v3",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfk4umffjw2q4drdicph5vfbhdbdduryqelxydwo7nsybhc3535exkfpvcq/v.mp4"
+      },
+      "v4" : {
+        "id" : "id3",
+        "idname" : "v4",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream31.uqload.com/3rfkeweffjw2q4drdicphifnl27ogvbz4ezlr7ym4i2tdxhqgosfvu6hlcqa/v.mp4"
+      },
+      "v5" : {
+        "id" : "id4",
+        "idname" : "v5",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream31.uqload.com/3rfkfb6hfjw2q4drdiaphingbf7lllj4g5g42352jwpfdt4qg7yh4mo67euq/v.mp4"
+      }
+
+    
+
+     
+
+    }
+    
+  },
+  "Ultraman" : {
+    "id":"id6",
+    "idname":"Ultraman",
+    "title":"Ultraman",
+    "pg":"https://static.pelisplus.co/serie/cover/original/8f46dc14081b872006a3e92d4ef6a11f.jpg",
+    "t1" : {
+
+      "id":"id0",
+      "idname":"t1",
+      "title":"Temporada 1",
+      "v1" : {
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream194.uqload.com/3rfkzujderw2q4drdip7hnf2avym5akkjygdaid6jogyvsv5fu5ig3ucl6dq/v.mp4"
+      },
+      "v2" : {
+        "id" : "id1",
+        "idname" : "v2",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream141.uqload.com/3rfkqureerw2q4drdip7hmvpd45ubfux62y66kwsbusscf2mjnnf6ue7udzq/v.mp4"
+      },
+      "v3" : {
+        "id" : "id2",
+        "idname" : "v3",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream246.uqload.com/3rfktvjderw2q4drdip7hkfmcfcjdesu7qznwje22nsdrkldkligtx6dzsva/v.mp4"
+      },
+      "v4" : {
+        "id" : "id3",
+        "idname" : "v4",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-c5hcfdx3rle3.html"
+      },
+      "v5" : {
+        "id" : "id4",
+        "idname" : "v5",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream141.uqload.com/3rfk4xreerw2q4drdip7hl7tay5sfa6bw3ifdzej5hgbcpue5fs5qnk4l32a/v.mp4"
+      }
+
+      ,
+      "v6" : {
+        "id" : "id5",
+        "idname" : "v6",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-23k93yosgq3l.html"
+      }
+      ,
+      "v7" : {
+        "id" : "id6",
+        "idname" : "v7",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream162.uqload.com/3rfkuwzeerw2q4drdip7hk5qb4m2y5mikftyzoskjylivndousca3kg7wvoa/v.mp4"
+      }
+
+      ,
+      "v8" : {
+        "id" : "id7",
+        "idname" : "v8",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream162.uqload.com/3rfktwbderw2q4drdip7h47qax6573etcvxh7nar44yonhxwvxgp2r3xphqa/v.mp4"
+      }
+      ,
+      "v9" : {
+        "id" : "id8",
+        "idname" : "v9",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-jmmy9psd797v.html"
+      }
+      ,
+      "v10" : {
+        "id" : "id9",
+        "idname" : "v10",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-i89cpqr3dnwn.html"
+      }
+      ,
+      "v11" : {
+        "id" : "id10",
+        "idname" : "v11",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream134.uqload.com/3rfk3tbderw2q4drdip7hlptlrboguhzvqm57duxsvcc22x7azebpxnrysca/v.mp4"
+      }
+
+      ,
+      "v12" : {
+        "id" : "id11",
+        "idname" : "v12",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream162.uqload.com/3rfknsjderw2q4drdip7hpvidu26wnogeyni4xjm3sn462djfyi2iurtxseq/v.mp4"
+      }
+      ,
+      "v13" : {
+        "id" : "id12",
+        "idname" : "v13",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream81.uqload.com/3rfkvrrderw2q4drdip7h5nvdco5ckbml6p3ux6cidr2n26nwnxycb6755bq/v.mp4"
+      }
+     
+
+    }
+    
+  },
+  "BlackSummer" : {
+    "id":"id7",
+    "idname":"BlackSummer",
+    "title":"Black Summer",
+    "pg":"https://static.pelisplus.co/serie/cover/original/b2fa982ea8925468f26c407b6e2877f2.jpg",
+    "t1" : {
+
+      "id":"id0",
+      "idname":"t1",
+      "title":"Temporada 1",
+      "v1" : {
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream78.uqload.com/3rfkt72ffnw2q4drdie7h4vsdqk2y2utayqtwfn5svyiovvexpyduz525wma/v.mp4"
+      },
+      "v2" : {
+        "id" : "id1",
+        "idname" : "v2",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-ld3ssk6bjhjf.html"
+      },
+      "v3" : {
+        "id" : "id2",
+        "idname" : "v3",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream162.uqload.com/3rfkx7cffnw2q4drdie7hihylti5ri3upyutw52tntqlkulicwpkdyr4oz2a/v.mp4"
+      },
+      "v4" : {
+        "id" : "id3",
+        "idname" : "v4",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream141.uqload.com/3rfkupkffnw2q4drdie7h5v2bsrzklkwkmgnthzlqf4my6tzllbp267oqyba/v.mp4"
+      },
+      "v5" : {
+        "id" : "id4",
+        "idname" : "v5",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream158.uqload.com/3rfkm5sffnw2q4drdie7hkprd5zhfhvea6t6kgbcjoh3febfj5ivjuy5re5a/v.mp4"
+      }
+
+      ,
+      "v6" : {
+        "id" : "id5",
+        "idname" : "v6",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream134.uqload.com/3rfkpykffnw2q4drdie7hnxudae4os6hiihl7qaa2boxak4m7d5rwvelvhpa/v.mp4"
+      }
+      ,
+      "v7" : {
+        "id" : "id6",
+        "idname" : "v7",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream179.uqload.com/3rfkly2ffnw2q4drdie7hixtbqjekwwi5rwmw6idzff27t43gw5wyq5bcp3q/v.mp4"
+      }
+
+      ,
+      "v8" : {
+        "id" : "id7",
+        "idname" : "v8",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream170.uqload.com/3rfkz7kffnw2q4drdie7hl5ccpao2kv6ia4owkbedler2fhdeoap7rxdrhcq/v.mp4"
+      }
+      
+     
+
+    }
+    
   }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
