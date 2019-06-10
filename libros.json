@@ -1,27 +1,47 @@
 {
-  "Spidermanunnue" : {
+  "biologiacelumol" : {
       "id" : "id0",
-    "idname" : "Quimicae",
-    "title":"calculo",
-    "img" : "img/pelis/spidemanuni.jpg",
-    "pg" : "//play.famobi.com/winter-adventures/A-GAMESYS"
+    "idname" : "biologiacelumol",
+    "title":"Biologia Celular y Molecular",
+    "img" : "img/libros/biologiacelumol.jpg",
+    "pg" : "https://drive.google.com/file/d/1iC1HnZp4tClKLEKWUw9auHf9Ns3iL9Uf/preview?authuser=0"
     },
 
-    "BirdBox" : {
+    "RAYMONDCHANGq1" : {
       "id" : "id1",
-    "idname" : "BirdBox",
-    "title":"biologia",
-    "img" : "img/pelis/BirdBox.jpg",
-    "pg" : "//html5.iclouds.io/neon-hockey/"
+    "idname" : "RAYMONDCHANGq1",
+    "title":"RAYMONDCHANG Quimica",
+    "img" : "img/libros/RAYMONDCHANGq1.jpg",
+    "pg" : "https://drive.google.com/file/d/1l3vJMfsDqnyK6RDmRvfsNFHHysv6GOQz/preview?authuser=0"
     },
 
-    "aladdin" : {
+    "QuimicaOrganiicaWade" : {
       "id" : "id2",
-    "idname" : "fisisca",
-    "title":"fisisca",
-    "img" : "img/pelis/aladdin.jpg",
-    "pg" : "https://drive.google.com/file/d/1UD2jzD8RN6DFW_MO6QeB4KY7IYRQoa8F/preview?authuser=0"
+    "idname" : "QuimicaOrganiicaWade",
+    "title":"Quimica Organiica Wade",
+    "img" : "img/libros/QuimicaOrganiicaWade.jpg",
+    "pg" : "https://drive.google.com/file/d/1f0ZDFPOuz8waK-PpDdndqSouAmV1dr0n/preview?authuser=0"
     }
+    ,
+
+    "fisiscatipens" : {
+      "id" : "id2",
+    "idname" : "QuimicaOrganiicaWade",
+    "title":"fisisca Tippens",
+    "img" : "img/libros/fisiscatipens.jpg",
+    "pg" : "https://drive.google.com/file/d/10mkSuFse4v6xpZox4FI5lqhi7LC-leZv/preview?authuser=0"
+    }
+    ,
+
+    "Calculodiferencialeintegralp" : {
+      "id" : "id2",
+    "idname" : "Calculodiferencialeintegralp",
+    "title":"Calculo diferencial e integral",
+    "img" : "img/libros/Calculodiferencialeintegralp.jpg",
+    "pg" : "https://drive.google.com/file/d/11U66NyL05LZ-Y8F2XvBavEkpXkzDKxkq/preview?authuser=0"
+    }
+
+
 
 
 }
