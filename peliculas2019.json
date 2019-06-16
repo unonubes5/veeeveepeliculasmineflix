@@ -168,7 +168,16 @@
     "title":"La Peor de Mis Bodas 2",
     "img" : "https://static.pelisplus.co/movie/cover/original/9b01a1b64b59def5795308cb349322aa.jpg",
     "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-oa8u7uclgs4f.html"
+    },
+
+    "alguienespecial" : {
+      "vid":"1",
+      "id" : "id15",
+    "idname" : "alguienespecial",
+    "title":"alguien especial",
+    "img" : "https://static.pelisplus.co/movie/cover/original/9b01a1b64b59def5795308cb349322aa.jpg",
+    "pg" : "https://www.pelisplus.net/v/3q9162532oy"
     }
 
-
+    
 }
