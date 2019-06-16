@@ -161,13 +161,13 @@
     }
     ,
 
-    "LaPeordeMisBodas2" : {
+    "Adosmetrosdeti" : {
       "vid":"1",
       "id" : "id15",
-    "idname" : "LaPeordeMisBodas2",
-    "title":"La Peor de Mis Bodas 2",
-    "img" : "https://static.pelisplus.co/movie/cover/original/9b01a1b64b59def5795308cb349322aa.jpg",
-    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-oa8u7uclgs4f.html"
+    "idname" : "Adosmetrosdeti",
+    "title":"A dos metros de ti ",
+    "img" : "https://image.tmdb.org/t/p/w300/guZ4xgDQTd2hyinwetHchpm5Oyc.jpg",
+    "pg" : "https://www.pelisplus.net/v/j-r5wcdx6j555kj"
     },
 
     "alguienespecial" : {
@@ -175,7 +175,7 @@
       "id" : "id15",
     "idname" : "alguienespecial",
     "title":"alguien especial",
-    "img" : "https://static.pelisplus.co/movie/cover/original/9b01a1b64b59def5795308cb349322aa.jpg",
+    "img" : "https://image.tmdb.org/t/p/w300/h0nz5lIBXeUZChBNfwL08bLWQaU.jpg",
     "pg" : "https://www.pelisplus.net/v/3q9162532oy"
     }
 
