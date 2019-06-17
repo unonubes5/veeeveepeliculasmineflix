@@ -118,66 +118,7 @@
     "img" : "img/pelis/Cargo.jpg",
     "pg" : "https://drive.google.com/file/d/17vYr4LVV80NFDRyTgZDR96cUP0IOsuYB/preview?authuser=0"
     }
-    ,
-
-    "Rocketman" : {
-      "vid":"1",
-      "id" : "id12",
-    "idname" : "Rocketman",
-    "title":"Rocketman",
-    "img" : "https://static.pelisplus.co/movie/cover/original/e983bd7524f1feb560892c566c0b251e.jpg",
-    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-krmiilg9moj7.html"
-    }
-    ,
-
-    "IAmMother" : {
-      "vid":"1",
-      "id" : "id13",
-    "idname" : "IAmMother",
-    "title":"I Am Mother ",
-    "img" : "https://image.tmdb.org/t/p/w300/eItrj5GcjvCI3oD3bIcz1A2IL9t.jpg",
-    "pg" : "https://www.pelisplus.net/v/7re3ybg8z1-wj88"
-    }
-    ,
-
-    "Emboscadafinal" : {
-      "vid":"1",
-      "id" : "id14",
-    "idname" : "Emboscadafinal",
-    "title":"Emboscada final",
-    "img" : "https://image.tmdb.org/t/p/w300/rTtsOpF1iVwrR0p7Uvvd0nMA4X.jpg",
-    "pg" : "https://www.pelisplus.net/v/54vyznrxxol"
-    }
-
-    ,
-
-    "Elniñoquepudoserrey" : {
-      "vid":"1",
-      "id" : "id15",
-    "idname" : "Elniñoquepudoserrey",
-    "title":"El niño que pudo ser rey ",
-    "img" : "https://image.tmdb.org/t/p/w300/fe1e9mKeoHf6stqUBBFZ1JKtJET.jpg",
-    "pg" : "https://www.pelisplus.net/v/yxo376pjq9l"
-    }
-    ,
-
-    "Adosmetrosdeti" : {
-      "vid":"1",
-      "id" : "id15",
-    "idname" : "Adosmetrosdeti",
-    "title":"A dos metros de ti ",
-    "img" : "https://image.tmdb.org/t/p/w300/guZ4xgDQTd2hyinwetHchpm5Oyc.jpg",
-    "pg" : "https://www.pelisplus.net/v/j-r5wcdx6j555kj"
-    },
-
-    "alguienespecial" : {
-      "vid":"1",
-      "id" : "id15",
-    "idname" : "alguienespecial",
-    "title":"alguien especial",
-    "img" : "https://image.tmdb.org/t/p/w300/h0nz5lIBXeUZChBNfwL08bLWQaU.jpg",
-    "pg" : "https://www.pelisplus.net/v/3q9162532oy"
-    }
+  
 
     
 }
