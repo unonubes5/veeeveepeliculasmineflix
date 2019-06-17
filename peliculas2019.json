@@ -100,13 +100,13 @@
     }
     ,
 
-    "JohnWick3Parabellum" : {
+    "hombresdenegro" : {
       "vid":"1",
       "id" : "id10",
-    "idname" : "JohnWick3Parabellum",
-    "title":"John Wick 3 Parabellum",
-    "img" : "https://static.pelisplus.co/movie/cover/original/d19e5376b89d3aac62e0c174dfca2b37.jpg",
-    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-jn8c09c5imy9.html"
+    "idname" : "hombresdenegro",
+    "title":"Hombres de negro 2019",
+    "img" : "img/pelis/hombresdenegro.jpg",
+    "pg" : "https://drive.google.com/file/d/17drYCGShmi5ybY3Lkn7Xxxov4IXZ_Vvy/preview?authuser=0"
     }
     ,
 
