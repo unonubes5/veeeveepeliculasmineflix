@@ -110,13 +110,13 @@
     }
     ,
 
-    "LaCitaPerfecta" : {
+    "Cargo" : {
       "vid":"1",
       "id" : "id11",
-    "idname" : "LaCitaPerfecta",
-    "title":"La Cita Perfecta",
-    "img" : "https://static.pelisplus.co/movie/cover/original/14ad387c6e659d243844159e22744d85.jpg",
-    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-uoa5hznhdzyh.html"
+    "idname" : "Cargo",
+    "title":"Cargo 2019",
+    "img" : "img/pelis/Cargo.jpg",
+    "pg" : "https://drive.google.com/file/d/17vYr4LVV80NFDRyTgZDR96cUP0IOsuYB/preview?authuser=0"
     }
     ,
 
