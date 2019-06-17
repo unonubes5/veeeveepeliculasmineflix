@@ -3,7 +3,7 @@
     "vid":"1",
       "id" : "id0",
     "idname" : "Spidermanunnue",
-    "title":"Spider man un nuevo universo",
+    "title":"Spider man un nuevo universo 2019",
     "img" : "img/pelis/spidemanuni.jpg",
     "pg" : "https://drive.google.com/file/d/1ETA7QznnWfLie9vWgH7fZ0VLtfhYyeR7/preview?authuser=0"
     },
@@ -12,7 +12,7 @@
       "vid":"1",
       "id" : "id1",
     "idname" : "BirdBox",
-    "title":"Bird Box",
+    "title":"Bird Box 2019",
     "img" : "img/pelis/BirdBox.jpg",
     "pg" : "https://drive.google.com/file/d/1z9UzJ_vcTulfAD8NdYqER_SttvXjVru0/preview?authuser=0"
     },
@@ -21,29 +21,29 @@
       "vid":"1",
       "id" : "id2",
     "idname" : "aladdin",
-    "title":"Aladdin",
+    "title":"Aladdin 2019",
     "img" : "img/pelis/aladdin.jpg",
     "pg" : "https://drive.google.com/file/d/1V8WTKaQcE_cJcCIjByhxaYRE4e-UiF7a/preview?authuser=0"
     },
 
-    "XMenFénixOscura" : {
+    "nmisteriobordo" : {
       "vid":"1",
       "id" : "id3",
-    "idname" : "XMenFénixOscura",
-    "title":"X-Men: Fénix 1",
-    "img" : "https://static.pelisplus.co/movie/cover/original/484ed180b2f7aa181bf12850cb4699cd.jpg",
-    "pg" : "https://stream76.uqload.com/3rfkydrtfjw2q4drdia7h5vedjf4bmzp4sta3cnsfkpcbejcmf2ku736i4mq/v.mp4"
+    "idname" : "nmisteriobordo",
+    "title":"Misterio a bordo 2019",
+    "img" : "img/pelis/misteriobordo.jpg",
+    "pg" : "https://drive.google.com/file/d/1o4UKOkRNUQHxVh_ds322ygQ2xzn4JUdU/preview?authuser=0"
     }
 
     ,
 
-    "GodzillaReydelosmonstruos" : {
+    "Aniquilacion" : {
       "vid":"1",
       "id" : "id4",
-    "idname" : "GodzillaReydelosmonstruos",
-    "title":"Godzilla Rey de los monstruos",
-    "img" : "https://www.pelisplay.tv/storage/imagenes/posters/opt_img_5cfad36a7a853_jLi7P6iWr7euFKTRd8UR11fkIXa.jpg",
-    "pg" : "https://stream78.uqload.com/3rfkviwqfjw2q4drdid7h4ngbxvbxqqezdsfmt2drkuzeafpi5qc4oks6zaq/v.mp4"
+    "idname" : "Aniquilacion",
+    "title":"Aniquilacion 2019",
+    "img" : "img/pelis/aniquilacion.jpg",
+    "pg" : "https://drive.google.com/file/d/1E-BAcUpB3z9KgCwe-1meN1DvZvjG-Iy1/preview?authuser=0"
     }
 
 
