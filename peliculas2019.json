@@ -49,54 +49,54 @@
 
     ,
 
-    "LaVidaSecretadetusMascotas2" : {
+    "Comoentrenaratudragon" : {
       "vid":"1",
       "id" : "id5",
-    "idname" : "LaVidaSecretadetusMascotas2",
-    "title":"La Vida Secreta de tus Mascotas 2",
-    "img" : "https://static.pelisplus.co/movie/cover/original/704a0e85b09ebc1c93fdf9e58ec8ac72.jpg",
-    "pg" : "https://stream179.uqload.com/3rfkforhfjw2q4drdia7hpncbrxj4rfuc6rbs3qtqjiu4yy4ou5evgy5nila/v.mp4"
+    "idname" : "Comoentrenaratudragon",
+    "title":"Cómo entrenar a tu dragón 2019",
+    "img" : "img/pelis/entrenartudragon.jpg",
+    "pg" : "https://drive.google.com/file/d/1MGiUKYejWSWNMgFyfbHZ08j87JwSVFP-/preview?authuser=0"
     }
     ,
 
-    "UglyDollsExtraordinariamenteFeos" : {
+    "deadwood" : {
       "vid":"1",
       "id" : "id6",
-    "idname" : "UglyDollsExtraordinariamenteFeos",
-    "title":"UglyDolls: Extraordinariamente Feos",
-    "img" : "https://static.pelisplus.co/movie/cover/original/4df9df113fafda72d4da8745f6913e5b.jpg",
-    "pg" : "https://stream76.uqload.com/3rfk2ydjfnw2q4drdih7h5hqbwgwzzxkshbm2wnfamzbuw7um4zhyotdriza/v.mp4"
+    "idname" : "deadwood",
+    "title":"Dead wood 2019",
+    "img" : "img/pelis/deadwood.jpg",
+    "pg" : "https://drive.google.com/file/d/1_TQi5vKt0ililcPHYVslIvvwyIo8ct78/preview?authuser=0"
     }
     ,
 
-    "MaestrasdelEngano" : {
+    "elninoquedomoelviento" : {
       "vid":"1",
       "id" : "id7",
-    "idname" : "MaestrasdelEngano",
-    "title":"Maestras del Engaño",
-    "img" : "https://static.pelisplus.co/movie/cover/original/9b53d65541d50645278d5a41cae9a3aa.jpg",
-    "pg" : "https://stream78.uqload.com/3rfkvga3fnw2q4drdig7h5fdlx7y5kq3gzdr7kxt535xaqtw4uhpqfhwkdeq/v.mp4"
+    "idname" : "elninoquedomoelviento",
+    "title":"El niño que domo el viento 2019",
+    "img" : "img/pelis/domoviento.jpg",
+    "pg" : "https://drive.google.com/file/d/16c6-luMQdjXJfLQkKNpN3RoSPRSyqX3b/preview?authuser=0"
     }
     ,
 
-    "PokemonDetectivePikachu" : {
+    "Elsilencio" : {
       "vid":"1",
       "id" : "id8",
-    "idname" : "PokemonDetectivePikachu",
-    "title":"Pokémon Detective Pikachu",
-    "img" : "https://static.pelisplus.co/movie/cover/original/c195f19adc58d309f90321f38592f789.jpg",
-    "pg" : "http://v.9stream.tv/play.php?url=https://www.rapidvideo.com/e/G3S1KY7D6R"
+    "idname" : "Elsilencio",
+    "title":"El silencio 2019",
+    "img" : "img/pelis/Elsilencio.jpg",
+    "pg" : "https://drive.google.com/file/d/1JXweK1bmWl7LyhX7w_BCCPVKBcWS6gp-/preview?authuser=0"
     }
 
     ,
 
-    "Avengers4Endgame" : {
+    "enlasbuenasyenlasmalas" : {
       "vid":"1",
       "id" : "id9",
-    "idname" : "Avengers4Endgame",
-    "title":"Avengers 4: Endgame",
-    "img" : "https://static.pelisplus.co/movie/cover/original/d54a414e51e3493cb8f87df2f8155111.jpg",
-    "pg" : "http://v.9stream.tv/play.php?url=https://uqload.com/embed-kf9lv56ief8e.html"
+    "idname" : "enlasbuenasyenlasmalas",
+    "title":"Enlas buenas y en las malas 2019",
+    "img" : "img/pelis/enlasbuenasyenlasmalas.jpg",
+    "pg" : "https://drive.google.com/file/d/1tueGTJ7A4Op7LAEWatKNC_y3aIdyzxuh/preview?authuser=0"
     }
     ,
 
