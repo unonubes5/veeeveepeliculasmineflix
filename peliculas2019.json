@@ -1,4 +1,15 @@
 {
+ 
+  "toy4" : {
+    "vid":"1",
+      "id" : "id0-1",
+    "idname" : "toy4",
+    "title":"Toy Story 4",
+    "img" : "img/pelis/toy4.jpg",
+    "pg" : "https://drive.google.com/file/d/13jY4QRi6LX-5_cSIShY1g0kEtRtEeDZn/preview?authuser=0"
+    },
+ 
+ 
   "Spidermanunnue" : {
     "vid":"1",
       "id" : "id0",
