@@ -1,5 +1,17 @@
 {
+  
 
+  "TheDirt" : {
+    "vid":"1",
+    "id" : "id11",
+  "idname" : "TheDirt",
+  "title":"The Dirt  2019",
+  "img" : "img/pelis/TheDirt.jpg",
+  "pg" : "https://storage.googleapis.com/brilliant-flame-242818.appspot.com/Copi/The.Dirt.xmdx.Latino.hd1080.mp4"
+  }
+
+
+  ,
   "JohnWick3" : {
     "vid":"1",
     "id" : "id11",
