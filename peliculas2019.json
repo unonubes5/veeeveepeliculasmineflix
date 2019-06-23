@@ -1,5 +1,18 @@
 {
 
+  "JohnWick3" : {
+    "vid":"1",
+    "id" : "id11",
+  "idname" : "JohnWick3",
+  "title":"John Wick 3 2019",
+  "img" : "img/pelis/JohnWick3.jpg",
+  "pg" : "https://storage.googleapis.com/brilliant-flame-242818.appspot.com/archivos/24-05-19/file.5ce882b3d1aa3.25639.458156.screener.latino.mp4"
+  }
+
+
+
+
+,
   "Godzilla19" : {
     "vid":"1",
     "id" : "id11",
@@ -143,16 +156,7 @@
     "pg" : "https://drive.google.com/file/d/17vYr4LVV80NFDRyTgZDR96cUP0IOsuYB/preview?authuser=0"
     }
   
-    ,
+    
 
-    "Cargo2" : {
-      "vid":"1",
-      "id" : "id11",
-    "idname" : "Cargo2",
-    "title":"Cargo 2019",
-    "img" : "img/pelis/cargo.jpg",
-    "pg" : "https://storage.googleapis.com/brilliant-flame-242818.appspot.com/archivos/24-05-19/file.5ce882b3d1aa3.25639.458156.screener.latino.mp4"
-    }
-  
     
 }
