@@ -1,5 +1,18 @@
 {
- 
+
+  "Godzilla19" : {
+    "vid":"1",
+    "id" : "id11",
+  "idname" : "Godzilla19",
+  "title":"Godzilla: Rey de los Monstruos 2019",
+  "img" : "img/pelis/gozilla.jpg",
+  "pg" : "https://mega.pelisplay.tv/embed/vip.php?u=NGN6LmJhdmdueS56bnAuMTc1MzczLjgwMDYyLjNvMnE5OTkzcW5zcDUucnl2cy85MS02MC03MC9mYml2dXBlbi96YnAuZ2JjZmNjbi44MTgyNDItcnpueXMtZ2Fudnl5dmVvL3picC5mdmNucnl0YmJ0LnJ0bmViZ2YvLzpmY2dndQ&fondo=https%3A%2F%2Fwww.pelisplay.tv%2Fstorage%2Fimagenes%2Fextras%2Frea98TEQvc6GB14ZNbWljtIySsX.jpg"
+  }
+
+
+
+
+ ,
   "toy4" : {
     "vid":"1",
       "id" : "id0-1",
@@ -126,19 +139,9 @@
       "id" : "id11",
     "idname" : "Cargo",
     "title":"Cargo 2019",
-    "img" : "img/pelis/Cargo.jpg",
+    "img" : "img/pelis/cargo.jpg",
     "pg" : "https://drive.google.com/file/d/17vYr4LVV80NFDRyTgZDR96cUP0IOsuYB/preview?authuser=0"
-    },
-
-    "Cargo2" : {
-      "vid":"1",
-      "id" : "id11",
-    "idname" : "Cargo2",
-    "title":"Cargo 2019",
-    "img" : "img/pelis/Cargo.jpg",
-    "pg" : "https://mega.pelisplay.tv/embed/vip.php?u=NGN6LmJhdmdueS56bnAuMTc1MzczLjgwMDYyLjNvMnE5OTkzcW5zcDUucnl2cy85MS02MC03MC9mYml2dXBlbi96YnAuZ2JjZmNjbi44MTgyNDItcnpueXMtZ2Fudnl5dmVvL3picC5mdmNucnl0YmJ0LnJ0bmViZ2YvLzpmY2dndQ&fondo=https%3A%2F%2Fwww.pelisplay.tv%2Fstorage%2Fimagenes%2Fextras%2Frea98TEQvc6GB14ZNbWljtIySsX.jpg"
     }
-  
   
 
     
