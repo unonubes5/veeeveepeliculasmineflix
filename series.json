@@ -1027,6 +1027,41 @@
 
     }
     
+  },
+  "BlackMirror" : {
+    "id":"id7",
+    "idname":"BlackMirror",
+    "title":"Black Mirror",
+    "pg":"img/series/BlackMirror.jpg",
+    "t1" : {
+
+      "id":"id0",
+      "idname":"t1",
+      "title":"Temporada 1",
+      "v1" : {
+        "id" : "id0",
+        "idname" : "v1",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream78.uqload.com/3rfkz6jrfjw2q4drdia7hjvvkj75magwuy4oupkwc5i2jzcczu7yctjvr3wq/v.mp4"
+      },
+      "v2" : {
+        "id" : "id1",
+        "idname" : "v2",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream78.uqload.com/3rfkp6brfjw2q4drdia7hiprbud3hsb6pdxom4dsl4grfjjiuimxfd3gevsq/v.mp4"
+      },
+      "v3" : {
+        "id" : "id2",
+        "idname" : "v3",
+        "img" : "https://scontent.fbog2-2.fna.fbcdn.net/v/t1.0-9/55576319_1151702351657226_622841975283908608_n.jpg?_nc_cat=103&_nc_eui2=AeE3fs-5j5rCCqsfA_0FlGApURCleK_lcqLFUkZ7ESdBCjgrLuLtNPdXs73nZdhwgp6hqIg7vrOHg4Js0XC_AFtThFGuvOUIq1qOgvuIJmvKrQ&_nc_ht=scontent.fbog2-2.fna&oh=4532f0f7b2c92b82bdcd39103c69f119&oe=5D8B2115",
+        "pg" : "https://stream76.uqload.com/3rfkv7rrfjw2q4drdia7h45xcnittorslpsb2rewymx5zohd6pgrgbvaouqq/v.mp4"
+      }
+      
+      
+     
+
+    }
+    
   }
 
 
