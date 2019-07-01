@@ -1,733 +1,602 @@
 <!DOCTYPE html>
 <html>
-<head><style>
-  body {
-    font-family: "Lato", sans-serif;
-  }
-  
-  .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  </style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        /* Float four columns side by side */
+        .column {
+          float: left;
+          width: 25%;
+          padding: 0 10px;
+        }
+        
+        /* Remove extra left and right margins, due to padding */
+        .row {margin: 0 -5px;}
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+          }
+        }
+        
+        /* Style the counter cards */
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          padding: 16px;
+          text-align: center;
+          background-color: #f1f1f1;
+        }
+        </style>
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 #idtodoelmundo{
-position: relative;
-top: 0%;
-left: 0%;
+    position: absolute;
+  top: 0%;
+ left: 0%;
+width: 100%;
 height: 100%;
+}
+
+#idponertodo{
+    position: absolute;
+  top: 20%;
+ left: 0%;
 width: 100%;
-z-index: 1;
-}
+height: 35%;
+background-color: rgb(0, 0, 0);
 
-.flex-container {
-  position: relative;
-left: 0%;
-top: 0%;
-
-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(0, 0, 0);
- 
+display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 
 }
-#idflex-container{
 
-  
-}
-.cl {
-  background-color: #f1f1f1;
-  width: 120px;
-  margin: 10px;
-  text-align: center;
- height: 120px;
-  font-size: 30px;
+#idabremenu1{
+    position: absolute;
+  top: 6.0%;
+ left: 50%;
+z-index: 10;
+
 }
 
-.imgesta{
-position: relative;
-margin: 0px;
-  top:0%;
-  left: 0%;
-  width:70px;
-  height: 80px;
+#idabremenu1a{
+    position: absolute;
+  top: 6.0%;
+ left:75%;
+
+z-index: 10;
+
 }
 
-.claspp{
-
-position: relative;
-top: 0%;
-left: 0%;
-width: 100%;
-margin: 0px;
-font-size: 11px;
+#idcajas1{
+    position: absolute;
+  top: 0%;
+ left: 0%;
+ width: 100%;
+height: 100%;
+z-index: 4;
+background-color: rgb(0, 0, 0);
+}
+#idcajasup{
+    position: absolute;
+  top: 0%;
+ left: 0%;
+ width: 100%;
+height: 10%;
+z-index: 4;
+background-color: rgba(0, 0, 0, 0.568);
 text-align: center;
+font-size: 16px;
+color: aliceblue;
 }
-#idcenterlista{
 
-position: absolute;
-top: 30%;
-left: 25%;
-width: 50%;
-height: 50%;
-margin: 0px;
-font-size: 11px;
-text-align: center;
-z-index: 2;
+#idcajasdw{
+    position: absolute;
+  top: 11%;
+ left: 0%;
+ width: 98%;
+height: 87%;
+z-index: 4;
+background-color: rgb(0, 0, 0);
 overflow: scroll;
 }
+#idcierraidcajas1{
+    position: absolute;
+  top: 0%;
+ left: 80%;
+z-index: 10;
+}
 
-#idcreproductor{
-
-  position: absolute;
-top: 30%;
-left: 25%;
-width: 50%;
-height: 50%;
-margin: 0px;
-
-z-index:4;
-background-color: #E50914;
+#idabremenu2{
+    position: absolute;
+  top: 0%;
+ left: 80%;
+z-index: 10;
 
 }
 
-#btopenmenu{
-
-  position: absolute;
-top: 0%;
-left:75%;
-width: 50px;
-height: 50px;
-margin: 0px;
-
-z-index:4;
-background-color:#E50914;
--webkit-box-shadow: 5px 5px 15px 5px #000000; 
-box-shadow: 5px 5px 15px 5px #000000;
-border: 5px solid rgb(0, 0, 0);
-border-radius: 40px 40px 40px 40px;
-}
-#idbotoncerrarmenu{
-
-  position: absolute;
-top: 0%;
-left:80%;
-width: 50px;
-height: 50px;
-margin: 0px;
-
-z-index:4;
-background-color:#E50914;
--webkit-box-shadow: 5px 5px 15px 5px #bdbdbd; 
-box-shadow: 5px 5px 15px 5px #bdbdbd; 
-border: 5px solid rgb(179, 175, 175);
-border-radius: 40px 40px 40px 40px;
-
-}
-#idpeliculasvisor{
-
-  position: absolute;
-top: 0%;
-left:0%;
-width: 100%;
+#idcajas2{
+    position: absolute;
+  top: 0%;
+ left: 0%;
+ width: 100%;
 height: 100%;
-margin: 0px;
+z-index: 4;
+background-color: rgb(0, 0, 0);
+}
+#idcajasup2{
+    position: absolute;
+  top: 0%;
+ left: 0%;
+ width: 100%;
+height: 10%;
+z-index: 4;
+background-color: rgba(0, 0, 0, 0.568);
+text-align: center;
+font-size: 16px;
+color: aliceblue;
+}
 
-z-index: 0.4;
-
-
-
+#idcajasdw2{
+    position: absolute;
+  top: 11%;
+ left: 0%;
+ width: 98%;
+height: 87%;
+z-index: 4;
+background-color: rgb(0, 0, 0);
+overflow: scroll;
+}
+#idcierraidcajas2{
+    position: absolute;
+  top: 0%;
+ left: 80%;
+z-index: 10;
 }
 
 
-#mySidenav{
 
-  z-index: 10;
-}
 
-#ocultamireproductor{
-  position: absolute;
-  top: 0px;
-  right:  10px;
-  width: 60px;
-  height: 60px;
-  background-color: rgb(255, 255, 255);
-  z-index: 2;
-  opacity: 0.1;
-}
-#ocultamireproductorcenter{
 
-  position: absolute;
-  top: 15%;
-  left:20% ;
-  width: 60%;
-  height: 70%;
-  background: rgb(0, 0, 0);
-  z-index: 3;
-  opacity: 1;
+
+
+
+
+#idabremenu3{
+    position: absolute;
+  top: 0%;
+ left: 80%;
+z-index: 10;
 
 }
-</style>
-<script src="jquery-3.2.1.min.js" ></script>
-</head>
-<body onresize="onresizemioeste();">
 
-  <div id="idtodoelmundo">
-<button onclick="openNav()" id="btopenmenu">open</button>
-<div id="iduno"></div>
-<div id="iddos"></div>
+#idcajas3{
+    position: absolute;
+  top: 0%;
+ left: 0%;
+ width: 100%;
+height: 100%;
+z-index: 4;
+background-color: rgb(0, 0, 0);
+}
+#idcajasup3{
+    position: absolute;
+  top: 0%;
+ left: 0%;
+ width: 100%;
+height: 10%;
+z-index: 4;
+background-color: rgba(0, 0, 0, 0.568);
+text-align: center;
+font-size: 16px;
+color: aliceblue;
+}
 
-<div id="mySidenav" class="sidenav">
-  <button id="idbotoncerrarmenu" href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</button>
-  <a onclick="muestrapeliculas();">Peliculas</a>
-  <a onclick="muestraseries();" >Series</a>
-  <a onclick="muestralibros();" >Libros</a>
-  <a onclick="muestrajuegos();">Juegos</a>
-</div>
-<div id="idcreproductor">
-<div id="ocultamireproductor">
-  <div id="ocultamireproductorcenter"></div>
-
-</div>
-  <iframe id="idpeliculasvisor" class="idiframemivideo"
-  src="img/fondo.jpg""
-   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><div id="idocultaeso"></div></iframe>
-              
-
-
-
-</div>
-<div id="idcenterlista">
+#idcajasdw3{
+    position: absolute;
+  top: 11%;
+ left: 0%;
+ width: 98%;
+height: 87%;
+z-index: 4;
+background-color: rgb(0, 0, 0);
+overflow: scroll;
+}
+#idcierraidcajas3{
+    position: absolute;
+  top: 0%;
+ left: 80%;
+z-index: 10;
+}
 
 
-    <div id="idflex-container" class="flex-container">
-     <div onclick="openrecurso(this);" class="cl"><p class="claspp">The "flex-wrap: wrap;" specifies that the </p><img class="imgesta" src="img/strangerthings.jpg" alt=""></div>
+
+
+
+
+
+
+
+
+
+
+
+
+.imgp{
+    width: 100px;
+height: 100px;
+
+}
+
+#idocultaeso{
+    position: absolute;
+  top: 0%;
+ left: 80%;
+ width:20%;
+ height: 70px; 
+z-index: 10;
+background-color: #666666;
+opacity: 0.3;
+}
+
+#idpeliculasvisor{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.clbtabrmemenu1 {
+	-moz-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #29bbff;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+	background:-moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:-ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa',GradientType=0);
+	background-color:#2dabf9;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+
+	width: 70px;
+}
+.clbtabrmemenu1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+	background:-moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:-ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9',GradientType=0);
+	background-color:#0688fa;
+}
+.clbtabrmemenu1:active {
+	position:relative;
+	top:1px;
+}
+
+
+.idvideo{
+        position: relative;
+        width: 100%;
+        height:450px;
+        background-color: rgb(0, 0, 0);
       
-
-      
-      </div>
-
-
-
-
-
-
-</div>
-   
-      
- 
-      
-      <p>Nuevas  series de Neflix</p>
-
-
-  </div> 
-  
-  
-  
-  
-  
-  <script>
-    var  elvw=window.innerWidth;
-    var elvh=window.innerHeight;
-    var elpwindows=1;
-    var boolsoypelicula=false;
-    var  boolsoyseries=false;
-    var  boolsoyseriestemp=false;
-    var  boolsoyseriestempvideo=false;
-    var  boolsoylibros=false;
-    var boolsoyjuegos=false;
-    var arraypeliculas2019=[];
-    var arraypeli9=[];
-    var arrayseriesi2019=[];
-   var arrayjuegosi2019 =[];
-
-    var arraylibrosi2019=[];
-  document.getElementById("idtodoelmundo").style.width=String(elpwindows*elvw)+"px";
-  document.getElementById("idtodoelmundo").style.height=String(elpwindows*elvh)+"px";
-
-
-  function onresizemioeste(){
-      elvw=window.innerWidth;
-     elvh=window.innerHeight;
-    
-document.getElementById("idtodoelmundo").style.width=String(elpwindows*elvw)+"px";
-document.getElementById("idtodoelmundo").style.height=String(elpwindows*elvh)+"px";
-
-if(elvw<450 ){
-  fidcenterlista("idcenterlista","absolute",0.10,0.0,0.99,0.90);
-  fidcenterlista("idcreproductor","absolute",0.3,0.0,1,0.40);
-}
-if(elvw>450 && elvw<=700 && elvh<=500 ){
-  fidcenterlista("idcenterlista","absolute",0.1,0.0,1,0.90);
-  fidcenterlista("idcreproductor","absolute",0.15,0.1,0.8,0.40);
-}
-if(elvw>450  && elvh<500 ){
-  fidcenterlista("idcenterlista","absolute",0.1,0.0,1,0.90);
-  fidcenterlista("idcreproductor","absolute",0.15,0.1,0.8,0.70);
-
-
-  
-}
-
-if(elvw>450  && elvh>=500 ){
-  fidcenterlista("idcenterlista","absolute",0.1,0.15,0.70,0.90);
-  fidcenterlista("idcreproductor","absolute",0.15,0.20,0.6,0.70);
-
-}
-
-
-  }
-
-
-function fidcenterlista(idst,stpostion,portop,porlt,porw,porh,){
-  elvw=window.innerWidth;
-     elvh=window.innerHeight;
-     document.getElementById(idst).style.position=String(stpostion);
-     document.getElementById(idst).style.width=String(porw*elvw)+"px";
-  document.getElementById(idst).style.height=String(porh*elvh)+"px";
-  document.getElementById(idst).style.top=String(portop*elvh)+"px";
-  document.getElementById(idst).style.left=String(porlt*elvw)+"px";
-}
-
-
-$.getJSON( "peliculas2019.json", function( data ) {
- 
-  arraypeli2019=data;
-
-
-});
-$.getJSON( "series.json", function( data ) {
- 
- arrayseriesi2019=data;
-
-
-});
-
-$.getJSON( "Libros.json", function( data ) {
- 
- arraylibrosi2019=data;
-
-
-});
-$.getJSON( "Juegos.json", function( data ) {
- 
- arrayjuegosi2019=data;
-
-iniciaprograma();
-});
-
-function  verplay(){
-
-
-}
-
-
-
-function crealoscuadorpelis(stid,sttitle,sturlimg){
-  //  escribeppeliculas("Peliculas");
-
-$("#idflex-container").append('  <div onclick="openrecurso(this);" class="cl" id='+ String(stid)+'  ><p class="claspp">'+String(sttitle)   +'  </p><img class="imgesta" src='+String(sturlimg)+' alt=""></div>');
-
-}
-
-
-
-
-
-function removerelementoshijos(idele) {
- 
-$("#"+idele).empty();
-
-}
-var idxtemp=0;
-function recrearlista(arrayst){
-  idxtemp=0;
-if(boolsoyseries){  for(var i in arrayst){
-
-crealoscuadorpelis(arrayst[i].idname,arrayst[i].title,arrayst[i].pg);
-} }
-      
-if(boolsoypelicula){  for(var i in arrayst){
-
-crealoscuadorpelis(arrayst[i].idname,arrayst[i].title,arrayst[i].img);
-} }
-
-
-
-
-
-if(boolsoyseriestemp){
-
-  for(var i in arrayst[tempidobjseries.id]){
-   
-    if(idxtemp>3){ 
-      crealoscuadorpelis(arrayst[tempidobjseries.id][i].idname,arrayst[tempidobjseries.id][i].title,arrayst[tempidobjseries.id].pg);
-   
-    }
-    idxtemp=idxtemp+1;
-
-} 
-
-}
-
-
-if(boolsoyseriestempvideo){
-  console.log("yoo "+ tempidobjseries+"   "+ tempidobjseriestemporadas.id); 
-console.log(arrayst[tempidobjseries.id][tempidobjseriestemporadas.id]); 
-
-
-for(var i in arrayst[tempidobjseries.id][tempidobjseriestemporadas.id]){
-   
-   if(idxtemp>2){ 
-     crealoscuadorpelis(arrayst[tempidobjseries.id][tempidobjseriestemporadas.id][i].idname,arrayst[tempidobjseries.id][tempidobjseriestemporadas.id][i].idname,arrayst[tempidobjseries.id].pg);
-  
-   }
-   idxtemp=idxtemp+1;
-
-} 
-
-
-} 
-
-
-if(boolsoylibros){  for(var i in arrayst){
-
-crealoscuadorpelis(arrayst[i].idname,arrayst[i].title,arrayst[i].img);
-} }
-if(boolsoyjuegos){  for(var i in arrayst){
-
-crealoscuadorpelis(arrayst[i].idname,arrayst[i].title,arrayst[i].img);
-} }
-
-}
-
-function muestrapeliculas(){
-  ocultarjuegos();
-  ocultarlibros();
-  ocultarserietemporada();
-  ocultarserie();
-  ocultarserietemporada();
-  ocultarserietemporadavideo();
-
-  cerrariframe();
-  boolsoypelicula=true;
-  removerelementoshijos("idflex-container");
-  mostrardiv("idcenterlista")
-  closeNav();
- 
-  recrearlista(arraypeli2019);
-
-}
-
-function ocultarpeliculas(){
-
-  boolsoypelicula=false;
-  removerelementoshijos("idflex-container");
-  ocultardiv("idcenterlista")
-  closeNav();
- 
-
-}
-
-function muestraseries(){
-  ocultarjuegos();
-  ocultarlibros();
-  ocultarpeliculas();
-  ocultarserietemporada();
-  ocultarserietemporadavideo();
-  cerrariframe();
-  boolsoyseries=true;
-  removerelementoshijos("idflex-container");
-  mostrardiv("idcenterlista")
-  closeNav();
- 
-  recrearlista(arrayseriesi2019);
-
-}
-
-function ocultarserie(){
-
-  boolsoyseries=false;
-  removerelementoshijos("idflex-container");
-  ocultardiv("idcenterlista")
-  closeNav();
- 
-
-}
-function muestraseriestemporada(){
-  ocultarjuegos();
-  ocultarlibros();
-  ocultarpeliculas();
-  ocultarserie();
-  ocultarserietemporadavideo();
-  cerrariframe();
-  boolsoyseriestemp=true;
-  removerelementoshijos("idflex-container");
-  mostrardiv("idcenterlista")
-  closeNav();
- 
-  recrearlista(arrayseriesi2019);
-
-}
-
-function ocultarserietemporada(){
-
-  boolsoyseriestemp=false;
-  removerelementoshijos("idflex-container");
-  ocultardiv("idcenterlista")
-  closeNav();
- 
-
-}
-
-function muestraseriestemporadavideo(){
-  ocultarjuegos();
-  ocultarpeliculas();
-  ocultarserie();
-  ocultarserietemporada();
-  ocultarlibros();
-  cerrariframe();
-  boolsoyseriestempvideo=true;
-  removerelementoshijos("idflex-container");
-  mostrardiv("idcenterlista")
-  closeNav();
- 
-  recrearlista(arrayseriesi2019);
-
-}
-
-function ocultarserietemporadavideo(){
-
-  boolsoyseriestempvideo=false;
-  removerelementoshijos("idflex-container");
-  ocultardiv("idcenterlista")
-  closeNav();
- 
-
-}
-
-
-function muestralibros(){
-  ocultarjuegos();
-  ocultarserietemporada();
-  ocultarserie();
-  ocultarserietemporada();
-  ocultarserietemporadavideo();
-ocultarpeliculas();
-  cerrariframe();
-  boolsoylibros=true;
-  removerelementoshijos("idflex-container");
-  mostrardiv("idcenterlista")
-  closeNav();
- 
-  recrearlista(arraylibrosi2019);
-
-}
-
-function ocultarlibros(){
-
-  boolsoylibros=false;
-  removerelementoshijos("idflex-container");
-  ocultardiv("idcenterlista")
-  closeNav();
- 
-
-}
-
-
-function muestrajuegos(){
-  ocultarserietemporada();
-  ocultarserie();
-  ocultarserietemporada();
-  ocultarserietemporadavideo();
-ocultarpeliculas();
-ocultarlibros();
-  cerrariframe();
-  boolsoyjuegos=true;
-  removerelementoshijos("idflex-container");
-  mostrardiv("idcenterlista")
-  closeNav();
- 
-  recrearlista(arrayjuegosi2019);
-
-}
-
-function ocultarjuegos(){
-
-  boolsoyjuegos=false;
-  removerelementoshijos("idflex-container");
-  ocultardiv("idcenterlista")
-  closeNav();
- 
-
-}
-
-
-
-
-
-var tempidobjpelicula="";
-
-var tempidobjseries="";
-var tempidobjseriestemporadas="";
-var tempidobjseriestemporadasvideo="";
-var tempidobjlibros="";
-var tempidobjjuegos="";
-function openrecurso(thiss){
-
-  if(boolsoypelicula){
-  
-
-    tempidobjpelicula=thiss;
-    for(var i in arraypeli2019){
-      if(arraypeli2019[i].idname==tempidobjpelicula.id){
-
-        ocultarpeliculas();
-        abririframe(arraypeli2019[i].pg)
+        z-index: 1;
       }
-    }
-    }
+      .idocultavideo{
+      
+        position:absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+      
+        height: 70px;
+        background-color: rgb(0, 0, 0);
+        z-index: 1;
+      }
 
-    if(boolsoyseriestempvideo){
-  
-
-      tempidobjseriestemporadasvideo=thiss;
-  for(var i in arrayseriesi2019[tempidobjseries.id][tempidobjseriestemporadas.id]){
-    if(arrayseriesi2019[tempidobjseries.id][tempidobjseriestemporadas.id][i].idname==tempidobjseriestemporadasvideo.id){
-
-      ocultarpeliculas();
-      console.log(arrayseriesi2019[tempidobjseries.id][tempidobjseriestemporadas.id][i].pg);
-      abririframe(arrayseriesi2019[tempidobjseries.id][tempidobjseriestemporadas.id][i].pg)
-    }
-  }
-  }
-
-
-    if(boolsoyseriestemp){
-  
-  tempidobjseriestemporadas=thiss;
-  console.log("uno  "+thiss.id);
-muestraseriestemporadavideo();
-  }
+      .idiframemivideo{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
+#idocultaeso2{
+position: absolute;
+left: 50%;
+width: 50%;
+height: 100%;;
+background-color: #000000;
+opacity: 1;
 
 
-    if(boolsoyseries){
-    //  console.log("boolsoyseries "+boolsoyseries);
-
-    tempidobjseries=thiss;
-for(var i  in arrayseriesi2019){
-  if(arrayseriesi2019[i].idname==tempidobjseries.id){
-    muestraseriestemporada();
-  }
-} 
-    }
-
-    if(boolsoylibros){
-  
-
-  tempidobjlibros=thiss;
-  for(var i in arraylibrosi2019){
-    if(arraylibrosi2019[i].idname==tempidobjlibros.id){
-
-      ocultarpeliculas();
-      abririframe(arraylibrosi2019[i].pg)
-    }
-  }
-  }
-
-  if(boolsoyjuegos){
-  
-
-  tempidobjjuegos=thiss;
-  for(var i in arrayjuegosi2019){
-    if(arrayjuegosi2019[i].idname==tempidobjjuegos.id){
-
-      ocultarpeliculas();
-      abririframe(arrayjuegosi2019[i].pg)
-    }
-  }
-  }
+position: absolute;
+  top: 0%;
+ left: 80%;
+ width:20%;
+ height: 70px; 
+z-index: 10;
+background-color: #000000;
 
 
 }
-function mostrardiv(st){
-  document.getElementById(st).style.display="block";
+
+#idcargando{
+
+
+
+  position: absolute;
+  top: 0%;
+ left: 0%;
+ width:100%;
+ height: 100%; 
+
+background-color: #000000;
+text-align:center; 
+
+z-index: 100;
 }
-function ocultardiv(st){
-  document.getElementById(st).style.display="none";
+
+#idmensajep{
+
+
+
+position: absolute;
+top: 40%;
+left: 0%;
+width:100%;
+height: 120px; 
+
+background: #000000;
+text-align:center; 
+color: #0688fa;
+font-size:22px; 
+z-index: 101;
+text-align: center;
 }
 
-function cerrariframe(){
-
-  pasarleeliframepeliculas("");
-  ocultardiv("idcreproductor");
-}
+</style>  <script src="jquery-3.2.1.min.js" ></script>
+</head>
+<body onresize="fonresize();" onload="fonload();">
 
 
-function abririframe(stsrc1){
-
-pasarleeliframepeliculas("");
-mostrardiv("idcreproductor");
-pasarleeliframepeliculas(stsrc1)
-}
-//traejsonpeliculas2019();
-//fidcenterlista();
-onresizemioeste();
 
 
+  <p id="idmensajep">ok</p>
+
+
+<script>
+document.getElementById("idmensajep").innerHTML="Compartir la app con tus amigos y familiares por favor <br>Nueva serie  Black mirror";
 setTimeout(function(){
 
- // removerelementoshijos("idflex-container");
-
-  setTimeout(function(){
-
-  //  recrearlista(arraypeli2019)
-
-},3000);
-
-
+  document.getElementById("idmensajep").style.display="none";
 
 },5000);
 
 
+</script>
+  
+    <div id="idtodoelmundo">
+      <div id="idcargando">CArgando.. <br>si  se demora revice conceccion internet</div>
+            <div id="idcajas1">
+
+<div id="idcajasup">
+        <span id="idcierraidcajas1" style="font-size:30px;cursor:pointer" onclick="fcierraidcajas1();">&times</span>
+
+    <p id="idppeliculas">peliculas</p>
+</div>
+
+<div id="idcajasdw">
+
+
+        <h2>Responsive Column Cards</h2>
+        <p>Resize the browser window to see the effect.</p>
+        
+        <div id="anadeacapelis" class="row">
+       
+        
+          <div id=+String(stid)+ onclick="onclipeliculas(this);"  class="column"><div class="card"><h3>Card 4</h3><img class='imgp' src="img/juegodetronos.jpg" alt='Card image cap'></div></div>
+
+
+
+        </div>
+
+
+
+
+</div>
+
+      
+</div>
+
+
+
+<div id="idcajas2">
+
+        <div id="idcajasup2">
+                <span id="idcierraidcajas2" style="font-size:30px;cursor:pointer" onclick="fcierraidcajas1();">&times</span>
+        
+            <p id="idppeliculas2">Temporadas</p>
+        </div>
+        
+        <div id="idcajasdw2">
+        
+        
+                <h2>Responsive Column Cards</h2>
+                <p>Resize the browser window to see the effect.</p>
+                
+                <div id="anadeacapelis2" class="row">
+               
+                
+                  <div id=+String(stid)+ onclick="onclipeliculas(this);"  class="column"><div class="card"><h3>Card 4</h3><img class='imgp' src="img/juegodetronos.jpg" alt='Card image cap'></div></div>
+        
+        
+        
+                </div>
+        
+        
+        
+        
+        </div>
+        
+              
+        </div>
+
+
+
+
+        <div id="idcajas3">
+
+                <div id="idcajasup3">
+                        <span id="idcierraidcajas3" style="font-size:30px;cursor:pointer" onclick="fcierraidcajas3();">&times</span>
+                
+                    <p id="idppeliculas3">Videos</p>
+                </div>
+                
+                <div id="idcajasdw3">
+                
+                
+                        <h2>Responsive Column Cards</h2>
+                        <p>Resize the browser window to see the effect.</p>
+                        
+                        <div id="anadeacapelis3" class="row">
+                       
+                        
+                          <div id=+String(stid)+ onclick="onclipeliculas(this);"  class="column"><div class="card"><h3>Card 4</h3><img class='imgp' src="img/juegodetronos.jpg" alt='Card image cap'></div></div>
+                
+                
+                
+                        </div>
+                
+                
+                
+                
+                </div>
+                
+                      
+                </div>
+        
+
+
+<div id="idponertodo">
+<div id="idocultaeso"></div>
+<div id="idocultaeso2"></div>
+        <iframe id="idpeliculasvisor" class="idiframemivideo"
+        src="https://drive.google.com/file/d/11Pv1lwaODCjRYlBpG1MlXpEZEmFjLXlH/preview?authuser=0"
+         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><div id="idocultaeso"></div></iframe>
+                    
+
+   
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+  <a onclick="fvermenupeliculas();" href="#">Peliculas</a>
+  <a onclick="fvermenuseries();"  href="#">Series</a>
+  <a onclick="fvermenujuegos();"  href="#">Juegos</a>
+  <a onclick="fvermenulibros();" href="#">Libros</a>
+  <a href="#">Contact</a>
+</div>
+
+
+<button id="idabremenu1a"  onclick="openNav()" class="clbtabrmemenu1">&#9776;</button>
+<script>
 function openNav() {
+  fvermenunave();
+
   document.getElementById("mySidenav").style.width = "250px";
 }
 
@@ -736,23 +605,667 @@ function closeNav() {
 }
 
 
+var vhp=1;
+var vwp=1;
+var vlp=0.0;
+    var vw=window.innerWidth;
+        var vh=window.innerHeight;
+     
+function fonresize(){
+     vw=window.innerWidth;
+     vh=window.innerHeight;
+     document.getElementById("idtodoelmundo").style.height=String(vh*vhp)+"px";
+    document.getElementById("idtodoelmundo").style.width=String(vw*vwp)+"px";
+    document.getElementById("idtodoelmundo").style.left=String(vw*vlp)+"px";
+    dodnevaelvideo()
+}
+function iniciunoves(){
+ vw=window.innerWidth;
+  vh=window.innerHeight;
+    document.getElementById("idtodoelmundo").style.height=String(vh*vhp)+"px";
+    document.getElementById("idtodoelmundo").style.width=String(vw*vwp)+"px";
+    document.getElementById("idtodoelmundo").style.left=String(vw*vlp)+"px";
+ 
+    focultarmenuidcajas1();
+    focultarmenuidcajas2();
+    focultarmenuidcajas3();
+    traejsonpeliculas2019();
+    traejsonseries2019();
+    traejsonlibros();
+    traejsonjuegos();
+    dodnevaelvideo();
+}
+function denuevovariable(){
+    vw=window.innerWidth;
+     vh=window.innerHeight;
+}
+
+function fonload(){
+    iniciunoves();
+  
+
+}
+
+function fvermenupeliculas(){
+    removerelementoshijos("anadeacapelis");
+    removerelementoshijos("anadeacapelis2");
+    removerelementoshijos("anadeacapelis3");
+    focultarmenunave()
+   // ocultardiv("idabremenu1");
+		ocultardiv("idabremenu1a");
+   // mostrasrdiv("idcajas1");
+fvermenuidcajas1();
+
+    for(var i in arraypeliculas2019){
+                           
+									crealoscuadorpelis(arraypeliculas2019[i].idname,arraypeliculas2019[i].title,arraypeliculas2019[i].img);
+
+								}
+   
+}
+
+
+function fvermenulibros(){
+    removerelementoshijos("anadeacapelis");
+    removerelementoshijos("anadeacapelis2");
+    removerelementoshijos("anadeacapelis2");
+    focultarmenunave()
+   // ocultardiv("idabremenu1");
+		ocultardiv("idabremenu1a");
+   // mostrasrdiv("idcajas1");
+fvermenuidcajas1();
+
+    for(var i in arraylibros){
+                           
+   
+			crealoscuadorlibros(arraylibros[i].idname,arraylibros[i].title,arraylibros[i].img);
+
+						}
+   
+}
+
+
+
+
+
+
+function fvermenujuegos(){
+    removerelementoshijos("anadeacapelis");
+    removerelementoshijos("anadeacapelis2");
+    removerelementoshijos("anadeacapelis2");
+    focultarmenunave()
+   // ocultardiv("idabremenu1");
+		ocultardiv("idabremenu1a");
+   // mostrasrdiv("idcajas1");
+fvermenuidcajas1();
+
+
+    for(var i in arrayJuegos){
+                           
+   
+      crealoscuadorjuegos(arrayJuegos[i].idname,arrayJuegos[i].title,arrayJuegos[i].img);
+
+						}
+   
+}
+
+
+
+
+
+
+
+
+function fvermenuseries(){
+    escribeppeliculas("Series");
+    removerelementoshijos("anadeacapelis");
+    removerelementoshijos("anadeacapelis2");
+    focultarmenunave()
+   // ocultardiv("idabremenu1");
+		ocultardiv("idabremenu1a");
+   // mostrasrdiv("idcajas1");
+fvermenuidcajas1();
+focultarmenuidcajas2();
+    for(var i in arrayseries2019){
+                           
+									crealoscuadroseries(arrayseries2019[i].idname,arrayseries2019[i].title,arrayseries2019[i].pg);
+
+								}
+   
+}
+
+
+
+
+
+function focultarmenupeliculas(){
+  //  mostrasrdiv("idabremenu1");
+		mostrasrdiv("idabremenu1a");
+    ocultardiv("idcajas1");
+
+    fveriframepeliculas();
+}
+function fvermenunave(){
+    focultarmenuidcajas1();
+    focultarmenuidcajas2();
+    mostrasrdiv("mySidenav");
+   
+}
+function focultarmenunave(){
+focultarframepeliculas();
+    ocultardiv("mySidenav");
+}
+
+function fvermenuidcajas2(){
+    focultarframepeliculas();
+  mostrasrdiv("idcajas2");
+ 
+}
+function focultarmenuidcajas2(){
+
+  ocultardiv("idcajas2");
+}
+
+function fvermenuidcajas3(){
+    focultarframepeliculas();
+  mostrasrdiv("idcajas3");
+ 
+}
+function focultarmenuidcajas3(){
+
+  ocultardiv("idcajas3");
+}
+
+
+
+function fvermenuidcajas1(){
+  focultarframepeliculas();
+  mostrasrdiv("idcajas1");
+ 
+}
+function focultarmenuidcajas1(){
+fveriframepeliculas();
+  ocultardiv("idcajas1");
+}
+
+
+
+
+
+function mostrasrdiv(st){
+    document.getElementById(st).style.display="block";
+}
+function ocultardiv(st){
+    document.getElementById(st).style.display="none";
+}
+function fcierraidcajas1(){
+
+    focultarmenupeliculas();
+    fvermenunave();
+}
+
+function fcierraidcajas3(){
+  focultarmenuidcajas3();
+fvermenuidcajas2()
+
+
+//focultarmenupeliculas();
+//fvermenunave();
+}
+
+
+
+
+
+
+
+
+var arraylibros=[];
+
+function traejsonlibros(){
+
+    $.ajax({              
+               url:   'libros.json',
+                dataType:  'json',
+               type:  'get',
+               cache:false,
+               success:  function (data) {
+           
+           
+                for(var i in data){
+                  arraylibros.push({id:data[i].id,idname:data[i].idname,img:data[i].img,pg:data[i].pg,title:data[i].title})
+       
+     
+                }
+
+
+            
+			//	traejsonseries2019();
+
+
+
+
+               }
+       });
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+var arrayJuegos=[];
+
+function traejsonjuegos(){
+
+    $.ajax({              
+               url:   'juegos.json',
+                dataType:  'json',
+               type:  'get',
+               cache:false,
+               success:  function (data) {
+           
+           
+                for(var i in data){
+                  arrayJuegos.push({id:data[i].id,idname:data[i].idname,img:data[i].img,pg:data[i].pg,title:data[i].title})
+       
+     
+                }
+
+
+
+ocultardiv("idcargando");
+
+               }
+       });
+
+
+
+
+
+
+}
+
+
+
+
+
+
+var arraypeliculas2019=[];
+
+function traejsonpeliculas2019(){
+
+    $.ajax({              
+               url:   'peliculas2019.json',
+                dataType:  'json',
+               type:  'get',
+               cache:false,
+               success:  function (data) {
+           
+           
+                for(var i in data){
+           arraypeliculas2019.push({id:data[i].id,idname:data[i].idname,img:data[i].img,pg:data[i].pg,title:data[i].title})
+       
+     
+                }
+						
+
+						
+            
+			//	traejsonseries2019();
+
+
+
+
+               }
+       });
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var arrayseries2019=[];
+
+function traejsonseries2019(){
+    $.ajax({
+		   
+		   url:   'series.json',
+			dataType:  'json',
+		   type:  'get',
+		   cache:false,
+		   success:  function (data) {
+			arrayseries2019=data;
+//console.log(arrayseries2019);
+	/*	
+	for(var i in arrayseries2019){
+
+
+		crealoscuadroseries(arrayseries2019[i].idname,arrayseries2019[i].title,arrayseries2019[i].pg);
+		
+	}
+*/
+
+		   }
+   });
+
+
+
+
+
+
+}
+
+
+
+
+var vtempestapeliculaidname="";
+
+
+function crealoscuadorpelis(stid,sttitle,sturlimg){
+    escribeppeliculas("Peliculas");
+
+$("#anadeacapelis").append("<div onclick="+"onclipeliculas(this);"+" id="+String(stid)+"  class='column'><div class='card'><h3>"+String(sttitle)+"</h3><img class='imgp' src="+String(sturlimg)+" alt='Card image cap'></div></div>");
+
+}
+function crealoscuadorlibros(stid,sttitle,sturlimg){
+    escribeppeliculas("Libros");
+
+$("#anadeacapelis").append("<div onclick="+"onclilibros(this);"+" id="+String(stid)+"  class='column'><div class='card'><h3>"+String(sttitle)+"</h3><img class='imgp' src="+String(sturlimg)+" alt='Card image cap'></div></div>");
+
+}
+
+function crealoscuadorjuegos(stid,sttitle,sturlimg){
+    escribeppeliculas("Juegos");
+
+$("#anadeacapelis").append("<div onclick="+"onclijuegos(this);"+" id="+String(stid)+"  class='column'><div class='card'><h3>"+String(sttitle)+"</h3><img class='imgp' src="+String(sturlimg)+" alt='Card image cap'></div></div>");
+
+}
+
+
+
+
+function crealoscuadroseries(stid,sttitle,sturlimg){
+
+
+    $("#anadeacapelis").append("<div onclick="+"oncliseries(this);"+" id="+String(stid)+"  class='column'><div class='card'><h3>"+String(sttitle)+"</h3><img class='imgp' src="+String(sturlimg)+" alt='Card image cap'></div></div>");
+
+}
+
+function crealoscuadroseriesytemp(stid,sttitle,sturlimg){
+
+
+    $("#anadeacapelis2").append("<div onclick="+"oncliseriestemp(this);"+" id="+String(stid)+"  class='column'><div class='card'><h3>"+String(sttitle)+"</h3><img class='imgp' src="+String(sturlimg)+" alt='Card image cap'></div></div>");
+
+}
+
+
+
+function crealoscuadroseriesytempvideos(stid,sttitle,sturlimg){
+
+  $("#anadeacapelis3").append("<div onclick="+"oncliseriestempvideo(this);"+" id="+String(stid)+"  class='column'><div class='card'><h3>"+String(sttitle)+"</h3><img class='imgp' src="+String(sturlimg)+" alt='Card image cap'></div></div>");
+
+
+}
+
+
+
+
+function onclipeliculas(thiss){
+focultarmenunave();
+focultarmenupeliculas();
+
+    vtempestapeliculaidname=thiss.id;
+    if(vtempestapeliculaidname!=""){
+       
+        for(var i in arraypeliculas2019){
+            if(arraypeliculas2019[i].idname==vtempestapeliculaidname){
+            //   console.log(i+"    "+ vtempestapeliculaidname+"    "+ arraypeliculas2019[i].idname);
+             pasarleeliframepeliculas(arraypeliculas2019[i].pg);
+            }
+        }
+    }
+
+
+}
+var vtempestalibrosidname="";
+function onclilibros(thiss){
+focultarmenunave();
+focultarmenupeliculas();
+
+vtempestalibrosidname=thiss.id;
+    if(vtempestalibrosidname!=""){
+       
+        for(var i in arraylibros){
+            if(arraylibros[i].idname==vtempestalibrosidname){
+            //   console.log(i+"    "+ vtempestapeliculaidname+"    "+ arraypeliculas2019[i].idname);
+             pasarleeliframepeliculas(arraylibros[i].pg);
+            }
+        }
+    }
+
+
+}
+
+
+var vtempestajuegossidname="";
+function onclijuegos(thiss){
+focultarmenunave();
+focultarmenupeliculas();
+
+vtempestajuegossidname=thiss.id;
+    if(vtempestajuegossidname!=""){
+       
+        for(var i in arrayJuegos){
+            if(arrayJuegos[i].idname==vtempestajuegossidname){
+            //   console.log(i+"    "+ vtempestapeliculaidname+"    "+ arraypeliculas2019[i].idname);
+             pasarleeliframepeliculas(arrayJuegos[i].pg);
+            }
+        }
+    }
+
+
+}
+
+
+
+
+var tempestevideocajas="";
+var tempconteovideoseries=1;
+function oncliseriestemp(thiss){
+
+    
+	tempconteovideoseries=1;
+	removerelementoshijos("anadeacapelis3");
+
+
+fvermenuidcajas3();
+tempestevideocajas=thiss.id;
+
+for(var i in arrayseries2019[vtempseletemp][tempestevideocajas]){
+	//console.log( arrayseries2019[vtempseletemp][tempestevideocajas][i].idname);
+
+if(arrayseries2019[vtempseletemp][tempestevideocajas][i].idname){
+  //  console.log(arrayseries2019[vtempseletemp][tempestevideocajas]);
+	crealoscuadroseriesytempvideos(arrayseries2019[vtempseletemp][tempestevideocajas][i].pg,"Video "+String(tempconteovideoseries),vtempdeseriesutlimg);
+tempconteovideoseries=tempconteovideoseries+1;
+}	}
+
+
+
+}
+
+var estevideoyatempserieurl="";
+function oncliseriestempvideo(thiss){
+  estevideoyatempserieurl=thiss.id;
+
+if(estevideoyatempserieurl!=""){
+
+
+   
+
+        focultarmenuidcajas3();focultarmenuidcajas2();focultarmenuidcajas1();
+   //  console.log(thiss);
+   pasarleeliframepeliculas(estevideoyatempserieurl);
+      
+    
+}
+
+
+}
+var temorepruceestevideoserie="";
+function oncliseriesvideoeste(thissvideo){
+
+
+	temorepruceestevideoserie=thissvideo;
+    //  pasarleeliframepeliculas(temorepruceestevideoserie)
+   // mostrardiv("iddiviframeyamspeliculas");
+
+
+
+
+   
+}
+
+var vseltempidx=0;
+var vtempseletemp="";
+var vtempdeseriesutlimg="";
+var vtempidnamedeseries="";
+function oncliseries(thiss){
+
+
+	vtempseletemp=thiss.id;
+	vtempidnamedeseries=thiss.id;
+
+
+for(var i in arrayseries2019){
+	if(arrayseries2019[i].idname==vtempidnamedeseries){vtempdeseriesutlimg=arrayseries2019[i].pg}
+}
+
+fvermenuidcajas2();
+
+
+
+	
+	for(var ii in arrayseries2019[vtempseletemp]){
+
+
+
+	if(arrayseries2019[vtempseletemp][ii].idname){
+
+
+		crealoscuadroseriesytemp(arrayseries2019[vtempseletemp][ii].idname,arrayseries2019[vtempseletemp][ii].title,vtempdeseriesutlimg);
+	}
+
+	
+	}	}
+
+
+
+
+
+
+
+
+
 
 function pasarleeliframepeliculas(stsrc){
 
-document.getElementById("idpeliculasvisor").src=stsrc;
+    document.getElementById("idpeliculasvisor").src=stsrc;
+}
+
+function removerelementoshijos(idele) {
+
+$("#"+idele).empty();
+
+}
+
+function escribeppeliculas(st){
+
+    document.getElementById("idppeliculas").innerHTML=st;
+}
+function escribeppeliculas2(st){
+
+document.getElementById("idppeliculas2").innerHTML=st;
+}
+
+function escribeppeliculas3(st){
+
+document.getElementById("idppeliculas3").innerHTML=st;
+}
+function fveriframepeliculas(){
+ // mostrasrdiv("idabremenu1");
+	mostrasrdiv("idabremenu1a");
+mostrasrdiv("idponertodo");
+}
+function focultarframepeliculas(){
+ocultardiv("idponertodo");
+}
+
+function  dodnevaelvideo(){
+    vw=window.innerWidth;
+  vh=window.innerHeight;
+if(vw>5000<=6250){
+
+    document.getElementById("idponertodo").style.height=String(vh*0.8)+"px";
+    document.getElementById("idponertodo").style.width=String(vw*0.65)+"px";
+    document.getElementById("idponertodo").style.left=String(vw*0.25)+"px";
+
+}
+if(vw<=500){
+
+document.getElementById("idponertodo").style.height=String(vh*0.4)+"px";
+document.getElementById("idponertodo").style.width=String(vw*1)+"px";
+document.getElementById("idponertodo").style.left=String(vw*0)+"px";
+
 }
 
 
-cerrariframe();
-removerelementoshijos("idflex-container");
-abririframe("img/fondo.jpg");
-function iniciaprograma(){
-  openNav();
-  abririframe("img/fondo.jpg");
+
+if(vw>500){
+  document.getElementById("idponertodo").style.position="absolute";
+document.getElementById("idponertodo").style.height=String(vh*0.90)+"px";
+document.getElementById("idponertodo").style.width=String(vw*0.70)+"px";
+document.getElementById("idponertodo").style.left=String(vw*0.15)+"px";
+document.getElementById("idponertodo").style.top=String(vh*0.000051)+"px";
+
+}
 }
 
 
-  </script>
 
 
-</html>
+</script>
+
+
+
+  </div> 
+</body>
+</html> 
