@@ -151,8 +151,17 @@
     "img" : "img/pelis/cargo.jpg",
     "pg" : "https://drive.google.com/file/d/17vYr4LVV80NFDRyTgZDR96cUP0IOsuYB/preview?authuser=0"
     }
-  
+  ,
     
+
+  "Cargo2" : {
+    "vid":"1",
+    "id" : "id11",
+  "idname" : "Cargo2",
+  "title":"Cargo 2019",
+  "img" : "img/pelis/cargo.jpg",
+  "pg" : "http://cdn-b-east.streamable.com/video/mp4/gaf8j.mp4?token=xvPHuWZptT_OawlGaeDcAA&expires=1562048160"
+  }
 
     
 }
