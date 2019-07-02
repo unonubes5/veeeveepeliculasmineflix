@@ -2,9 +2,18 @@
 
 
 
-
   
-
+  "Annabelle" : {
+    "vid":"2",
+    "id" : "id12",
+  "idname" : "Annabelle",
+  "title":"Annabelle 3 2019",
+  "img" : "https://static.pelisplus.co/movie/cover/original/72c5cf022700110838c6a9238f7698eb.jpg",
+  "pg" : "https://drive.google.com/file/d/1nnOMuOGveZnLRvWm2pozi0izbnuXAan9/preview"
+  }
+  
+  
+,
   "TheDirt" : {
     "vid":"1",
     "id" : "id11",
