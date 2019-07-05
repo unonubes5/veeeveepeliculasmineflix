@@ -448,12 +448,12 @@ text-align: center;
 
 
 <script>
-document.getElementById("idmensajep").innerHTML="Compartir la app con tus amigos y familiares por favor <br>Nueva serie  Black mirror";
+document.getElementById("idmensajep").innerHTML="Compartir la app con tus amigos y familiares por favor <br>Nueva pelicula Annabelle 3 spiderman home, strenger things temporada 3";
 setTimeout(function(){
 
   document.getElementById("idmensajep").style.display="none";
 
-},5000);
+},7000);
 
 
 </script>
@@ -1260,28 +1260,7 @@ document.getElementById("idponertodo").style.top=String(vh*0.000051)+"px";
 }
 
 
-$.ajax({              
-               url:   'cualweb.json',
-                dataType:  'json',
-               type:  'get',
-               cache:false,
-               success:  function (data) {
-           
-       
-console.log(data.siono);
 
-for(var i in data){
-if(data[i].siono=="si"){  window.location=data[i].web;}
-
-}
-            
-			//	traejsonseries2019();
-
-
-
-
-               }
-       });
 
 </script>
 
