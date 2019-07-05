@@ -1,7 +1,5 @@
 {
 
-
-  
   "AnnabelleVieneCasa" : {
     "vid":"1",
     "id" : "id11",
@@ -9,6 +7,20 @@
   "title":"Annabelle 3: Viene a Casa",
   "img" : "https://static.pelisplus.co/movie/cover/original/72c5cf022700110838c6a9238f7698eb.jpg",
   "pg" : "https://drive.google.com/file/d/1s439jQOkqok091atCdeQD_-3tVvq6zyg/preview?authuser=0"
+  }
+
+
+
+,
+
+  
+  "SpiderManLejosdeCasa" : {
+    "vid":"1",
+    "id" : "id11",
+  "idname" : "SpiderManLejosdeCasa",
+  "title":"Spider-Man: Lejos de Casa",
+  "img" : "https://static.pelisplus.co/movie/cover/original/af385cf7cfa7ad26d4c00b1afc9fec77.jpg",
+  "pg" : "https://drive.google.com/file/d/1PleN3ICJhEnxty6NzvL8H0b6UpNX0H-A/preview?authuser=0"
   }
 
 
